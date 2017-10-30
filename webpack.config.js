@@ -1,5 +1,5 @@
 const path = require("path");
-
+const webpack = require("webpack");
 module.exports = {
   entry: ["./src/ReactEntryPoint.js"],
   target: "node",
@@ -15,5 +15,6 @@ module.exports = {
         use: "node-loader"
       }
     ]
-  }
+  },
+  plugins: [new webpack.ExternalsPlugin("commonjs", ["leveldown"])]
 };
