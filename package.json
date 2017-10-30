@@ -3,7 +3,7 @@
   "main": "src/ElectronApp.js",
   "scripts": {
     "start": "webpack && electron src/ElectronApp.js",
-    "install": "npm rebuild zeromq --runtime=electron --target=1.7.9",
+    "install": "npm rebuild zeromq --runtime=electron --target=1.7.9 && electron-rebuild -o leveldown",
     "build": "webpack"
   },
   "dependencies": {
@@ -12,6 +12,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "node-loader": "^0.6.0",
+    "electron-rebuild": "^1.6.0",
     "electron": "^1.7.9",
     "pouchdb": "^6.3.4",
     "react": "^15.6.1",
