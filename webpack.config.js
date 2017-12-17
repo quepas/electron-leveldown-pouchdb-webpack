@@ -8,13 +8,7 @@ module.exports = {
     filename: "bundle.js"
   },
   module: {
-    rules: [
-      { test: /\.js$/, use: "babel-loader", exclude: /node_modules/ },
-      {
-        test: /\.node$/,
-        use: "node-loader"
-      }
-    ]
+    rules: [{ test: /\.js$/, use: "babel-loader", exclude: /node_modules/ }]
   },
   plugins: [new webpack.ExternalsPlugin("commonjs", ["leveldown"])]
 };

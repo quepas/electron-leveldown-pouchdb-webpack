@@ -1,9 +1,8 @@
 {
-  "name": "physio_client",
+  "name": "electron-leveldown-pouchdb-webpack",
   "main": "src/ElectronApp.js",
   "scripts": {
     "start": "webpack && electron src/ElectronApp.js",
-    "install": "npm rebuild zeromq --runtime=electron --target=1.7.9",
     "postinstall": "electron-rebuild -o leveldown"
   },
   "dependencies": {
@@ -11,13 +10,11 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "node-loader": "^0.6.0",
     "electron-rebuild": "^1.6.0",
     "electron": "^1.7.9",
     "pouchdb": "^6.3.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "webpack": "^3.6.0",
-    "zeromq": "^4.5.0"
+    "webpack": "^3.6.0"
   }
 }
