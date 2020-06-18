@@ -5,10 +5,10 @@
 
 ## In the webpack world
 
-Instead of using this:
+In the `webpack.config.js`, instead of using this:
 
 
-```json
+```
 const webpack = require("webpack");
 {
    ...
@@ -18,7 +18,7 @@ const webpack = require("webpack");
 
 You can also use [this](https://github.com/pouchdb/pouchdb/issues/7807#issuecomment-524543522):
 
-```json
+```
 {
    ...
    externals: {
