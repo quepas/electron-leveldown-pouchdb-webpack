@@ -5,7 +5,7 @@
     "start": "webpack && electron src/ElectronApp.js"
   },
   "dependencies": {
-    "electron": "^9.0.4",
+    "electron": "^9.3.0",
     "pouchdb": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
