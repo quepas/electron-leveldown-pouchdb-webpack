@@ -5,7 +5,7 @@ class Database {
     this.newDB = new PouchDB("./oooo-my-sweet-database");
   }
 
-  getSome() {
+  getSomeData() {
     this.newDB
       .get("dave@gmail.com")
       .then(function(doc) {

@@ -5,7 +5,7 @@ import Database from "./Database";
 export default class MainWindow extends React.Component {
   constructor(props) {
     super(props);
-    Database.getSome();
+    Database.getSomeData();
   }
 
   render() {
