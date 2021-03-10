@@ -1,21 +1,27 @@
 {
   "name": "electron-leveldown-pouchdb-webpack",
   "main": "src/ElectronApp.js",
+  "private": "true",
+  "license": "MIT license",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quepas/electron-leveldown-pouchdb-webpack.git"
+  },
   "scripts": {
     "start": "webpack && electron src/ElectronApp.js"
   },
   "dependencies": {
-    "electron": "^11.0.2",
+    "electron": "^12.0.0",
     "pouchdb": "^7.2.2",
-    "react": "^16.13.1",
+    "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.12.1",
-    "@babel/preset-react": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.5.0"
   }
 }
