@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# additional directories
+build/
+oooo-my-sweet-database/
