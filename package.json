@@ -11,17 +11,17 @@
     "start": "webpack && electron src/ElectronApp.js"
   },
   "dependencies": {
-    "electron": "^13.6.6",
+    "electron": "^17.2.0",
     "pouchdb": "^7.2.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "@babel/preset-react": "^7.14.5",
-    "babel-loader": "^8.2.2",
-    "webpack": "^5.58.1",
-    "webpack-cli": "^4.9.0"
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }
