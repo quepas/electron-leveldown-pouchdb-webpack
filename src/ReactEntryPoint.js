@@ -1,11 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import * as ReactDOMClient from 'react-dom/client';
 
 import MainWindow from "./MainWindow";
 
 window.onload = function() {
-  ReactDOM.render(
-    <MainWindow />,
-    document.getElementById("react-content-placeholder")
-  );
+  const container = document.getElementById("react-content-placeholder")
+  const root = ReactDOMClient.createRoot(container)
+  root.render(<MainWindow />)
 };
