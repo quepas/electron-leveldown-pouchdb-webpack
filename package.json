@@ -11,7 +11,7 @@
     "start": "webpack && electron src/ElectronApp.js"
   },
   "dependencies": {
-    "electron": "22.3.25",
+    "electron": "28.3.2",
     "pouchdb": "8.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
